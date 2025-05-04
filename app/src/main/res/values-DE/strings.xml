@@ -1,61 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
+
+    <!-- Setup wizard -->
+    <string name="welcome_to_muzza">Willkommen bei Muzza</string>
+    <string name="yt_music_fingertips">YouTube-Music auf Knopfdruck</string>
+    <string name="ytm_account_sync">YouTube-Music-Kontosynchronisierung</string>
+    <string name="ad_free_playback">Werbefreie Wiedergabe</string>
+    <string name="fos_info">Kostenlose quelloffene Anwendung</string>
+    <string name="i_have_a_backup">I have a backup</string>
+    <string name="skip">Überspringen</string>
+    <string name="back">Zurück</string>
+    <string name="next">Weiter</string>
+    
     <!-- Bottom navigation -->
     <string name="home">Startseite</string>
+    <string name="explore">Erkunden</string>
     <string name="songs">Titel</string>
     <string name="artists">Künstler</string>
     <string name="albums">Alben</string>
     <string name="playlists">Wiedergabelisten</string>
+
+    <string name="liked">Favotiten</string>
+    <string name="offline">Offline music</string>
+    <string name="my_top">Meine Top</string>
+    <string name="cached">Im Cache</string>
+    <string name="local">Lokale Musik</string>
+
+    <!-- My top -->
+    <string name="all_time">Gesamte Zeit</string>
+    <string name="past_24_hours">Letzte 24 Stunden</string>
+    <string name="past_week">Letzte Woche</string>
+    <string name="past_month">Letzte Monat</string>
+    <string name="past_year">1 Jahr</string>
+    
     <!-- Top bar -->
     <plurals name="n_selected">
-        <item quantity="one">%d ausgewählt</item>
         <item quantity="other">%d ausgewählt</item>
     </plurals>
+    
     <!-- Home -->
     <string name="history">Hörverlauf</string>
+     <string name="history_empty">Ihr Verlauf wird hier angezeigt</string>
+     <string name="stats_empty">Ihre Statistiken werden hier angezeigt</string>
     <string name="stats">Statistiken</string>
     <string name="mood_and_genres">Stimmungen und Genres</string>
     <string name="account">Account</string>
     <string name="quick_picks">Schnellauswahl</string>
     <string name="quick_picks_empty">Hören Sie sich einige Songs an, um Ihre Schnellauswahl zu treffen</string>
+    <string name="forgotten_favorites">Vergessene Favoriten</string>
+     <string name="keep_listening">Weiterhören</string>
+    <string name="your_youtube_playlists">Ihre YouTube-Wiedergabelisten</string>
+    <string name="similar_to">Ähnlich wie</string>
     <string name="new_release_albums">Neu veröffentlichte Alben</string>
+   
     <!-- History -->
     <string name="today">Heute</string>
     <string name="yesterday">Gestern</string>
     <string name="this_week">Diese Woche</string>
     <string name="last_week">Letzte Woche</string>
-    <!-- Stats -->
+       <string name="local_history">Lokal</string>
+    <string name="remote_history">Online</string>
+    <string name="history_queue_title_local">Lokaler Wiedergabeverlauf</string>
+    <string name="history_queue_title_online">Online Wiedergabeverlauf</string>
+    
+     <!-- Stats -->
     <string name="most_played_songs">Meist gespielte Songs</string>
     <string name="most_played_artists">Meist gespielte Künstler</string>
     <string name="most_played_albums">Meist gespielte Alben</string>
+   
     <!-- Search -->
     <string name="search">Suche</string>
-    <string name="search_yt_music">YouTube Musik durchsuchen…</string>
-    <string name="search_library">Bibliothek durchsuchen…</string>
+    <string name="search_yt_music">Youtube-Music durchsuchen</string>
+    <string name="search_library">Bibliothek durchsuchen...</string>
+    <string name="SearchHistory">Wiedergabeverlauf durchsuchen...</string>
+    <string name="Sujestions">Vorschläge</string>
+    <string name="SearchResutls">Suchergebnisse</string>
     <string name="filter_library">Bibliothek</string>
     <string name="filter_liked">Favoriten</string>
-    <string name="filter_downloaded">Heruntergeladen</string>
+    <string name="filter_downloaded">Offline</string>
     <string name="filter_all">Alles</string>
-    <string name="filter_songs">Titel</string>
+    <string name="filter_songs">Songs</string>
     <string name="filter_videos">Videos</string>
-    <string name="filter_albums">Alben</string>
+    <string name="filter_albums">Albums</string>
     <string name="filter_artists">Künstler</string>
     <string name="filter_playlists">Wiedergabelisten</string>
     <string name="filter_community_playlists">Community-Wiedergabelisten</string>
     <string name="filter_featured_playlists">Ausgewählte Wiedergabelisten</string>
-    <string name="filter_bookmarked">Bookmarked</string>
+    <string name="filter_bookmarked">Mit Lesezeichen versehen</string>
     <string name="no_results_found">Keine Ergebnisse gefunden</string>
+    
+    <!-- Library -->
+    <string name="library_song_empty">Songs aus der Bibliothek werden hier angezeigt</string>
+    <string name="library_artist_empty">Die Künstler aus der Bibliothek werden hier angezeigt</string>
+    <string name="library_album_empty">Die Alben der Bibliothek werden hier angezeigt</string>
+    <string name="library_playlist_empty">Ihre Wiedergabelisten werden hier angezeigt</string>
+    
     <!-- Artist screen -->
     <string name="from_your_library">Aus der Bibliothek</string>
+    
+    <!-- Album screen -->
+    <string name="other_versions">Andere Versionen</string>
+
     <!-- Playlist -->
     <string name="liked_songs">Favoriten</string>
     <string name="downloaded_songs">Heruntergeladene Titel</string>
     <string name="playlist_is_empty">Die Wiedergabeliste ist leer</string>
+    <string name="remove_download_playlist_confirm">Möchten Sie wirklich alle Lieder der Wiedergabeliste „%s“ aus dem Speicher für heruntergeladene Lieder entfernen?</string>
+    <string name="delete_playlist_confirm">Wollen Sie die Wiedergabeliste \„%s\“ wirklich löschen?</string>
+
+     <string name="off">Deaktivieren</string>
+    
     <!-- Button -->
     <string name="retry">Wiederholen</string>
     <string name="radio">Radio</string>
     <string name="shuffle">Shuffle</string>
     <string name="reset">Reset</string>
+   
     <!-- Menu -->
     <string name="details">Details</string>
     <string name="edit">Bearbeiten</string>
@@ -64,9 +123,11 @@
     <string name="play_next">Als nächstes wiedergeben</string>
     <string name="add_to_queue">Zur Warteschlange hinzufügen</string>
     <string name="add_to_library">Zur Bibliothek hinzufügen</string>
+    <string name="add_all_to_library">Alle zur Bibliothek hinzufügen</string>
     <string name="remove_from_library">Aus der Bibliothek entfernen</string>
+    <string name="remove_all_from_library">Alle aus der Bibliothek entfernen</string>
     <string name="download">Herunterladen</string>
-    <string name="downloading">Downloading</string>
+    <string name="downloading">Herunterladen</string>
     <string name="remove_download">Download entfernen</string>
     <string name="import_playlist">Wiedergabeliste importieren</string>
     <string name="add_to_playlist">Zur Wiedergabeliste hinzufügen</string>
@@ -76,11 +137,17 @@
     <string name="share">Teilen</string>
     <string name="delete">Löschen</string>
     <string name="remove_from_history">aus dem Wiedergabeverlauf entfernen</string>
+    <string name="remove_from_playlist">Aus Wiedergabeliste entfernen</string>
+    <string name="remove_from_queue">Aus der Warteschlange entfernen</string>
+    <string name="remove_from_cache">Aus dem Cache entfernen</string>
     <string name="search_online">Online-Suche</string>
     <string name="sync">Sync</string>
     <string name="advanced">Erweitert</string>
-    <!-- Sort menu -->
+    <string name="tempo_and_pitch">Tempo und Tonhöhe</string>
+    
+     <!-- Sort menu -->
     <string name="sort_by_create_date">Datum hinzugefügt</string>
+    <string name="sort_by_last_updated">zuletzt Aktualisiert</string>
     <string name="sort_by_name">Name</string>
     <string name="sort_by_artist">Künstler</string>
     <string name="sort_by_year">Jahr</string>
@@ -88,6 +155,7 @@
     <string name="sort_by_length">Länge</string>
     <string name="sort_by_play_time">Wiedergabedauer</string>
     <string name="sort_by_custom">Individuelle Reinfolge</string>
+    
     <!-- Dialog -->
     <string name="media_id">Medien-ID</string>
     <string name="mime_type">MIME type</string>
@@ -99,22 +167,36 @@
     <string name="file_size">Dateigröße</string>
     <string name="unknown">Unbekannt</string>
     <string name="copied">In die Zwischenablage kopiert</string>
+   
     <string name="edit_lyrics">Text bearbeiten</string>
     <string name="search_lyrics">Songtext suchen</string>
     <string name="edit_song">Titel bearbeiten</string>
-    <string name="song_title">Songtitel</string>
+   
+    <string name="edit_song">Titel bearbeiten</string>
+    <string name="song_title">Titel des Liedes</string>
     <string name="song_artists">Song-Künstler</string>
     <string name="error_song_title_empty">Der Songtitel darf nicht leer sein.</string>
     <string name="error_song_artist_empty">Songinterpret darf nicht leer sein.</string>
     <string name="save">Speichern</string>
+    
+    <string name="sync_playlist">Wiedergabeliste synchronisieren</string>
     <string name="choose_playlist">Wiedergabeliste auswählen</string>
     <string name="edit_playlist">Wiedergabeliste bearbeiten</string>
     <string name="create_playlist">Wiedergabeliste erstellen</string>
     <string name="playlist_name">Name der Wiedergabeliste</string>
     <string name="error_playlist_name_empty">Der Name der Wiedergabeliste darf nicht leer sein.</string>
+
     <string name="edit_artist">Künstler bearbeiten</string>
     <string name="artist_name">Name des Künstlers</string>
     <string name="error_artist_name_empty">Der Name des Künstlers darf nicht leer sein.</string>
+    
+    <string name="duplicates">Duplikate</string>
+    <string name="skip_duplicates">Duplikate überspringen</string>
+    <string name="add_anyway">Trotzdem hinzufügen</string>
+    <string name="duplicates_description_single">Der Titel befindet sich bereits in Ihrer Wiedergabeliste</string>
+    <string name="duplicates_description_multiple">%d Titel sind bereits in Ihrer Wiedergabeliste</string>
+    <string name="allows_for_sync_witch_youtube">Hinweis: Dies ermöglicht die Synchronisierung mit YouTube Music</string>
+
     <!-- Noun -->
     <plurals name="n_song">
         <item quantity="one">%d Lied</item>
@@ -144,11 +226,13 @@
         <item quantity="one">%d Jahr</item>
         <item quantity="other">%d Jahre</item>
     </plurals>
+    
     <!-- Snackbar -->
     <string name="playlist_imported">Wiedergabeliste importiert</string>
     <string name="removed_song_from_playlist">Entfernt \"%s\" aus der Wiedergabeliste</string>
     <string name="playlist_synced">Wiedergabeliste synchronisiert</string>
     <string name="undo">Rückgängig machen</string>
+   
     <!-- Player -->
     <string name="lyrics_not_found">Liedtext nicht gefunden</string>
     <string name="sleep_timer">Schlaf-Timer</string>
@@ -161,28 +245,56 @@
     <string name="error_no_internet">Keine Netzverbindung</string>
     <string name="error_timeout">Zeitüberschreitung</string>
     <string name="error_unknown">Unbekannter Fehler</string>
+    
+    <string name="seek_backward">5 Sekunden rückwärts</string>
+    <string name="seek_forward">5 Sekunden vorwärts</strin 
+    
     <!-- Player action -->
     <string name="action_like">Favoriten</string>
+    <string name="action_like_all">Alle zu Favoriten hinzufügen</string
     <string name="action_remove_like">Aus Favoriten entfernen</string>
+    <string name="action_remove_like_all">Alle aus Favoriten entfernen</strin
     <string name="action_shuffle_on">Mischen an</string>
     <string name="action_shuffle_off">Mischen aus</string>
     <string name="repeat_mode_off">Wiederholungsmodus aus</string>
     <string name="repeat_mode_one">Aktuelles Lied wiederholen</string>
     <string name="repeat_mode_all">Warteschlange wiederholen</string>
+   
     <!-- Queue Title -->
     <string name="queue_all_songs">Alle Titel</string>
     <string name="queue_searched_songs">Gesuchte Titel</string>
+    
     <!-- Notification name -->
     <string name="music_player">Musik-Player</string>
+    
+    <!-- Notifications settings -->
+    <string name="notifications">Benachrichtigungen</string>
+    <string name="keep_alive_title">Verhindern, dass das System die APP beendet</string>
+    <string name="keep_alive_description">Verwenden Sie eine Benachrichtigung im Vordergrund, um zu verhindern, dass Muzza zufällig vom System geschlossen wird.</string>
+    <string name="notifications_settings">Einstellungen für Benachrichtigungen</strin     
+        
     <!-- Settings -->
     <string name="settings">Einstellungen</string>
     <string name="appearance">Erscheinungsbild</string>
+    <string name="theme">Thema</string>
+    <string name="proxy">Proxy</strin
     <string name="enable_dynamic_theme">Dynamisches Design aktivieren</string>
     <string name="dark_theme">Dunkles Desing</string>
     <string name="dark_theme_on">An</string>
     <string name="dark_theme_off">Aus</string>
     <string name="dark_theme_follow_system">System folgen</string>
     <string name="pure_black">Rein schwarz</string>
+    <string name="app_design_variant">App-Design</string>
+    <string name="listen_youtube_music">Anhören auf YouTube-Music</string>
+    <string name="visit_muzza">Muzza besuchen</string>
+    <string name="artist">Künstler</string>
+    <string name="listen_to_muzza">Listen to Muzza</string>
+    <string name="enable_swipe_thumbnail">Wischen über das Cover zum Wechseln des Titels aktivieren</string>
+    <string name="customize_navigation_tabs">Anpassen der Navigationsregisterkarten</string>
+    <string name="player">Player</string>
+    <string name="player_text_alignment">Ausrichtung von Spielertext</string>
+    <string name="lyrics_text_position">Position des Liedtextes</string>
+        
     <string name="default_open_tab">Standardmäßig geöffnete Registerkarte</string>
     <string name="customize_navigation_tabs">Anpassen der Navigationsregisterkarten</string>
     <string name="lyrics_text_position">Position des Liedtextes</string>
